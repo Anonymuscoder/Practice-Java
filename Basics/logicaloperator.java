@@ -11,7 +11,7 @@ class logicaloperator {
         boolean res1 = a < b && b > a; //Two conditions are connected using 'AND' operator
         System.out.println(res1);
 
-        System.out.println(!res1); //Negation vakue of 'res1'
+        System.out.println(!res1); //Negation value of 'res1'
 
         boolean res2 = a < b || b < a; //Two conditions are connected using 'OR' operator
         System.out.println(res2);
