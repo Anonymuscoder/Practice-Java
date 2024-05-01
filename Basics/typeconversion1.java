@@ -16,7 +16,7 @@ public class typeconversion1 {
         
         byte t=10;
         byte v=30;
-        int result= t*v; // type promotion due exceeding of values for byte datatype
+        int result= t*v; // type promotion due exceeding range of values for byte datatype
         System.out.println(result);
 
     }
