@@ -1,3 +1,6 @@
+
+//Code for implementing Multi-Dimensional Array in java and performing different operations on it
+
 class mdarray{
     public static void main(String[] args) {
         
