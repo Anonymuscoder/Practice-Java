@@ -5,9 +5,9 @@ public class code24 {
         int num = 100;
         for(int i=2; i<=num; i++){
             boolean isPrime = true;
-            for(int j=2;j<=i/2;j++){ //if i/2 is true then enter this block
-                if(i%j==0){
-                    isPrime = false;
+            for(int j=2;j<i;j++){ //loop from 2 to less than the number        (approach 2: if i/2 is true then enter this block)
+                if(i%j==0){ //check if i is divible by number less than itself or not
+                    isPrime = false; //if yes then its not an prime number
                     break;
                 }
             }
